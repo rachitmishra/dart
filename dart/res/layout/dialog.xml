@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shadow_corners" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_corners"
+            android:orientation="vertical"
+            tools:context=".Home" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/date_of_sowing"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#252525"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/dateSowing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:hint="@string/click_to_set"
+                    android:inputType="date"
+                    android:textColor="#252525"
+                    android:textColorHint="#454545" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/date_of_survey"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#252525"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/dateSurvey"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:hint="@string/click_to_set"
+                    android:inputType="date"
+                    android:textColor="#252525"
+                    android:textColorHint="#454545" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/phenological_crop_stages"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#252525"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_gravity="right"
+                android:text="@string/save_amp_close"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DART</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="date_of_sowing">Date of Sowing</string>
+    <string name="date_of_survey">Date of Survey</string>
+    <string name="phenological_crop_stages">Phenological Crop Stages</string>
+    <string name="spinner_value">Spinner Value</string>
+    <string name="save_amp_close">Save &amp; Close</string>
+
+    <string-array name="options">
+        <item>Vegitative</item>
+        <item>Flowering</item>
+        <item>Pod Forming</item>
+        <item>Seed Filling</item>
+        <item>Oil Accumulation</item>
+    </string-array>
+
+    <string name="title_activity_show">View Data</string>
+    <string name="map_button">Map Button</string>
+    <string name="view_data">View Data</string>
+    <string name="export_data">Export data as XML</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="sowing_data">Sowing Data</string>
+    <string name="survey_data">Survey Data</string>
+    <string name="click_to_set">Click to set</string>
+    <string name="data_acess_and_record_tool_dart">Data Access and Record Tool (DART)</string>
+    <string name="for_support">For support mail to</string>
+    <string name="dev">amresh.cherry@gmail.com</string>
+
+</resources>
